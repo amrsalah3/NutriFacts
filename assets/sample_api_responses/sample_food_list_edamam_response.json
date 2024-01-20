@@ -1,0 +1,1121 @@
+{
+  "text": "Soup",
+  "parsed": [],
+  "hints": [
+    {
+      "food": {
+        "foodId": "food_bo6d4m9b19b3nbbhguraoatydos9",
+        "label": "Soup",
+        "knownAs": "Soup",
+        "nutrients": {
+          "ENERC_KCAL": 68.67638932571752,
+          "PROCNT": 3.4366487193774558,
+          "FAT": 2.777649872561752,
+          "CHOCDF": 7.853988080377764,
+          "FIBTG": 1.297826912333793
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "Parsnips; Red Onion; Butter; olive oil; Curry Powder; Chicken or Vegetable stock; Salt; Pepper"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 379.13022149161117
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 379.13022149161117
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bowl",
+          "label": "Bowl",
+          "weight": 349.1466982
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bzuwphlbi505febfn01h9be2l5pf",
+        "label": "Canned Cheese Soup",
+        "knownAs": "cheese soup",
+        "nutrients": {
+          "ENERC_KCAL": 63.0,
+          "PROCNT": 2.19,
+          "FAT": 4.24,
+          "CHOCDF": 4.26,
+          "FIBTG": 0.4
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/8eb/8eb8def130924a0a912d96311ffd74a3.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 247
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 247
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_can",
+          "label": "Can",
+          "weight": 600,
+          "qualified": [
+            {
+              "qualifiers": [
+                {
+                  "uri": "http://www.edamam.com/ontologies/edamam.owl#Qualifier_prepared",
+                  "label": "prepared"
+                }
+              ],
+              "weight": 600
+            }
+          ]
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_afbhfjdapjjr8tb1rvuwab2df5l4",
+        "label": "Mushroom Soup",
+        "knownAs": "mushroom soup",
+        "nutrients": {
+          "ENERC_KCAL": 53,
+          "PROCNT": 1,
+          "FAT": 3.7,
+          "CHOCDF": 4.53,
+          "FIBTG": 0.2
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/f34/f34a3648046faa3f35aa04429691e776.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 244
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 244
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_can",
+          "label": "Can",
+          "weight": 305
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a7vorzja7lbjo0agv93xia6mt9mx",
+        "label": "Canned Stockpot Soup",
+        "knownAs": "stockpot soup",
+        "nutrients": {
+          "ENERC_KCAL": 78,
+          "PROCNT": 3.79,
+          "FAT": 3.04,
+          "CHOCDF": 8.95
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/108/108464d7d65bc62f1e170857ac45a458.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bxqeupraubjuw8b3l3xz5agishza",
+        "label": "Canned Tomato Soup",
+        "knownAs": "tomato soup",
+        "nutrients": {
+          "ENERC_KCAL": 32,
+          "PROCNT": 0.71,
+          "FAT": 0.21,
+          "CHOCDF": 7.45,
+          "FIBTG": 0.5
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/8f8/8f8f75761eec677c2f72f3b5dbb4e59e.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 248
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_can",
+          "label": "Can",
+          "weight": 465.00000000000006
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_fluid_ounce",
+          "label": "Fluid ounce",
+          "weight": 31
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bya91eua8o1vi7atmoggsbmjx8vt",
+        "label": "Basic Chicken Soup",
+        "knownAs": "chicken soup",
+        "nutrients": {
+          "ENERC_KCAL": 36,
+          "PROCNT": 2.52,
+          "FAT": 1.2,
+          "CHOCDF": 3.53,
+          "FIBTG": 0
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/26a/26a10c4cb4e07bab54d8a687ef5ac7d8.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 200
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_carton",
+          "label": "Carton",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 240
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_quart",
+          "label": "Quart",
+          "weight": 960
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_default",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bp7fj5ha7b4ym4aaof0gyb8gd8h6",
+        "label": "Soup",
+        "knownAs": "Soup",
+        "nutrients": {
+          "ENERC_KCAL": 85.98028225210226,
+          "PROCNT": 1.543235835294143,
+          "FAT": 2.8660094084034085,
+          "CHOCDF": 13.448197993277532
+        },
+        "brand": "Barbacoa Mexican Grill",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+            "label": "Ounce",
+            "quantity": 16
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_b7doa5gbihy8q2as1abmeb5ip4gj",
+        "label": "Soup",
+        "knownAs": "Soup",
+        "nutrients": {
+          "ENERC_KCAL": 39.683207193277966,
+          "PROCNT": 2.2046226218487757,
+          "FAT": 1.1023113109243878,
+          "CHOCDF": 5.732018816806817,
+          "FIBTG": 0.44092452436975516
+        },
+        "brand": "CiCi's Pizza",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+            "label": "Ounce",
+            "quantity": 8
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 226.796185
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_agwtrokao4hyidbmiqz5ibltzp8p",
+        "label": "Turkey Soup",
+        "knownAs": "canned chunky turkey soup",
+        "nutrients": {
+          "ENERC_KCAL": 57,
+          "PROCNT": 4.33,
+          "FAT": 1.87,
+          "CHOCDF": 5.96
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/b8a/b8aff27ca9e0b412740798e683b7524e.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 236
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 236
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_can",
+          "label": "Can",
+          "weight": 532
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_byvqfbnbrq2rtfazlgyiwam7tbzs",
+        "label": "Cream of Asparagus Soup, Soups",
+        "knownAs": "Cream of Asparagus Soup, Soups",
+        "nutrients": {
+          "ENERC_KCAL": 83.33333333333333,
+          "PROCNT": 3.6666666666666665,
+          "FAT": 3.7999998728434243,
+          "CHOCDF": 8.666666666666666,
+          "FIBTG": 0.3333333333333333
+        },
+        "brand": "Culvers",
+        "category": "Fast foods",
+        "categoryLabel": "meal",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 300
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 300
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_al4bolwb3zwgtsb0rx522ajri26z",
+        "label": "Soup Mix",
+        "knownAs": "soup mix",
+        "nutrients": {
+          "ENERC_KCAL": 377,
+          "PROCNT": 15.4,
+          "FAT": 6.51,
+          "CHOCDF": 62.3,
+          "FIBTG": 3.2
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/b7a/b7ab4bde3d4b2674da8727660f992027.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 11.1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_envelope",
+          "label": "Envelope",
+          "weight": 74
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+          "label": "Package",
+          "weight": 74
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_packet",
+          "label": "Packet",
+          "weight": 11.1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a40crbsaysoj0taholcdnafxfftu",
+        "label": "Pea Soup",
+        "knownAs": "canned pea soup",
+        "nutrients": {
+          "ENERC_KCAL": 61,
+          "PROCNT": 3.2,
+          "FAT": 1.09,
+          "CHOCDF": 9.88,
+          "FIBTG": 1.9
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/1a4/1a4a10abee442c929cd0ea9c47c27268.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 259
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_can",
+          "label": "Can",
+          "weight": 486.00000000000006
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_fluid_ounce",
+          "label": "Fluid ounce",
+          "weight": 32.4
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bezwzdjaqn7c4kb8sw1egbg5k8zh",
+        "label": "Minestrone Soup",
+        "knownAs": "canned condensed minestrone soup",
+        "nutrients": {
+          "ENERC_KCAL": 68,
+          "PROCNT": 3.48,
+          "FAT": 2.05,
+          "CHOCDF": 9.17,
+          "FIBTG": 0.8
+        },
+        "category": "Generic foods",
+        "categoryLabel": "food",
+        "image": "https://www.edamam.com/food-img/08a/08ac562e755d3458f32fd0954c7c2466.jpg"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_can",
+          "label": "Can",
+          "weight": 298
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 246
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_baqjyvbbp4vz89bhko36dab3q4hg",
+        "label": "Chili Soup",
+        "knownAs": "Chili Soup",
+        "nutrients": {
+          "ENERC_KCAL": 88.81605173091648,
+          "PROCNT": 5.262503812391952,
+          "FAT": 4.215065431830845,
+          "CHOCDF": 7.854689606419714,
+          "FIBTG": 1.920129327622248
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "ground beef; onion; potatoes; kidney beans; condensed tomato soup; tomato juice; chili powder; water; salt"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 473.19355075506064
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 473.19355075506064
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bowl",
+          "label": "Bowl",
+          "weight": 349.0829299
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_b4bcd1lbwyf1gaa94axm0a2idlfc",
+        "label": "Diet Soup",
+        "knownAs": "Diet Soup",
+        "nutrients": {
+          "ENERC_KCAL": 26.485797265349778,
+          "PROCNT": 1.4357580575602042,
+          "FAT": 0.34066489653267457,
+          "CHOCDF": 5.030310548695164,
+          "FIBTG": 1.3206529645403913
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "shallots; celery; capsicum; tomatoes; carrots; green beans; Soup mix; water; Stock Chicken; crushed tomatoes"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 595.5898202032903
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 595.5898202032903
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bowl",
+          "label": "Bowl",
+          "weight": 621.9522185
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_bk8m5smbo75fmybf1fehvar8rssk",
+        "label": "Spaghetti Soup",
+        "knownAs": "Spaghetti Soup",
+        "nutrients": {
+          "ENERC_KCAL": 70.8864492864681,
+          "PROCNT": 4.262123450700767,
+          "FAT": 2.4460386987994496,
+          "CHOCDF": 7.891229350856073,
+          "FIBTG": 0.6696604865500588
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "vegetable oil; chicken breast; onion; carrot; celery; garlic; Chicken Broth; Condensed Tomato Soup; water; spaghetti; parsley"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 467.7908325203669
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 467.7908325203669
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_brblbekaepi738a02yi05b2fe3co",
+        "label": "Soup",
+        "knownAs": "SOUP",
+        "nutrients": {
+          "ENERC_KCAL": 82,
+          "PROCNT": 1.2200000286102295,
+          "FAT": 5.710000038146973,
+          "CHOCDF": 5.309999942779541,
+          "FIBTG": 1.2000000476837158
+        },
+        "brand": "ITALIAN KITCHEN TO GO",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "TOMATO AND BASIL SOUP [DICED TOMATOES (TOMATO; TOMATO JUICE; SALT; CALCIUM CHLORIDE; CITRIC ACID); GROUND PEELED TOMATOES (TOMATO; TOMATO JUICE; CITRIC ACID; CALCIUM CHLORIDE); ONION; CREAM; CANOLA OIL; SALT; BASIL; GARLIC; OREGANO].",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+            "label": "Cup",
+            "quantity": 1
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 245
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 245
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+          "label": "Cup",
+          "weight": 245
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_a8rvp3pabie5d4anmktmrbrmbmte",
+        "label": "Hamburger Soup",
+        "knownAs": "Hamburger Soup",
+        "nutrients": {
+          "ENERC_KCAL": 74.2318559062372,
+          "PROCNT": 4.597306104278955,
+          "FAT": 3.585086547338485,
+          "CHOCDF": 6.067178425436374,
+          "FIBTG": 1.1009058268010485
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "ground beef; onion; can diced tomatoes; beef broth; tomato soup; carrots; celery; bay leaves; barley; potatoes; pepper; salt"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 388.4067724995424
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 388.4067724995424
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_bowl",
+          "label": "Bowl",
+          "weight": 415.9736931
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_ae68a0paxicr8ga13oqgea0soa9p",
+        "label": "Soup",
+        "knownAs": "SOUP",
+        "nutrients": {
+          "ENERC_KCAL": 80,
+          "PROCNT": 1.2799999713897705,
+          "FAT": 5.769999980926514,
+          "CHOCDF": 5.130000114440918,
+          "FIBTG": 1.2999999523162842
+        },
+        "brand": "Fresh & Easy",
+        "category": "Packaged foods",
+        "categoryLabel": "food",
+        "foodContentsLabel": "TOMATO AND BASIL SOUP [DICED TOMATOES (TOMATO; TOMATO JUICE; SALT; CALCIUM CHLORIDE; CITRIC ACID); GROUND PEELED TOMATOES (TOMATO; TOMATO PUREE; SALT; CITRIC ACID); ONION; CREAM; CANOLA OIL; SALT; BASIL; GARLIC; OREGANO].",
+        "servingSizes": [
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+            "label": "Gram",
+            "quantity": 312
+          },
+          {
+            "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_container",
+            "label": "Container",
+            "quantity": 1
+          }
+        ]
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 312
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_container",
+          "label": "Container",
+          "weight": 312
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "food": {
+        "foodId": "food_aoczhyga7act4ubs6hwpubrnt2l7",
+        "label": "Albondigas Soup (Mexican Meatball Soup)",
+        "knownAs": "Albondigas Soup (mexican Meatball Soup)",
+        "nutrients": {
+          "ENERC_KCAL": 82.82920115249601,
+          "PROCNT": 4.620451504679717,
+          "FAT": 5.0642771076612085,
+          "CHOCDF": 4.913660386277958,
+          "FIBTG": 0.8763921878232747
+        },
+        "category": "Generic meals",
+        "categoryLabel": "meal",
+        "foodContentsLabel": "ground beef; rice; fresh herbs; egg; salt; black pepper; olive oil; onion; carrots; celery ribs; squash; garlic; chicken broth; can diced tomato; green peas; dried oregano; cayenne pepper; lime juice; cilantro"
+      },
+      "measures": [
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+          "label": "Whole",
+          "weight": 378.9871389300979
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+          "label": "Serving",
+          "weight": 378.9871389300979
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+          "label": "Gram",
+          "weight": 1
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+          "label": "Ounce",
+          "weight": 28.349523125
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+          "label": "Pound",
+          "weight": 453.59237
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+          "label": "Kilogram",
+          "weight": 1000
+        },
+        {
+          "uri": "http://www.edamam.com/ontologies/edamam.owl#Measure_milliliter",
+          "label": "Milliliter",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "next": {
+      "title": "Next page",
+      "href": "https://api.edamam.com/api/food-database/v2/parser?session=40&app_id=fa234f00&app_key=8729daf1fcb8f7210dc1f7c5a2051a81&ingr=Soup"
+    }
+  }
+}
