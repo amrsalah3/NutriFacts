@@ -2,6 +2,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:nutrifacts/feature/food_nutrition_information/domain/entities/cubit/food_list/food_list_cubit.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// Animated search bar
 /// Its Animation sequence:
@@ -71,26 +72,37 @@ class _FoodSearchBarState extends State<FoodSearchBar> {
             child: Card(
               clipBehavior: Clip.antiAlias,
               elevation: 5,
-              child: TextField(
-                decoration: const InputDecoration(
-                  border: InputBorder.none,
-                  contentPadding: EdgeInsets.all(16),
-                  hintText: "Search food for nutrition facts",
-                  hintStyle: TextStyle(fontWeight: FontWeight.normal),
-                ),
-                onSubmitted: (String foodName) async {
-                  if (await checkNoInternet()) return;
-                  _query = foodName;
-                  if (_firstSearch) {
-                    _firstSearch = false;
-                    // Animate expansion of the search bar to the full width
-                    // by reducing the horizontal padding.
-                    setState(() => _horizontalPadding = 4);
-                  } else {
-                    // Do the search directly without any animations.
-                    context.read<FoodListCubit>().getFoodList(_query!);
-                  }
-                },
+              child: Row(
+                children: [
+                  Expanded(
+                    child: TextField(
+                      decoration: const InputDecoration(
+                        border: InputBorder.none,
+                        contentPadding: EdgeInsets.fromLTRB(16, 16, 0, 16),
+                        hintText: "Search food for nutrition facts",
+                        hintStyle: TextStyle(fontWeight: FontWeight.normal),
+                      ),
+                      onSubmitted: (String foodName) async {
+                        if (await _checkNoInternet()) return;
+                        _query = foodName;
+                        if (_firstSearch) {
+                          _firstSearch = false;
+                          // Animate expansion of the search bar to the full width
+                          // by reducing the horizontal padding.
+                          setState(() => _horizontalPadding = 4);
+                        } else {
+                          // Do the search directly without any animations.
+                          context.read<FoodListCubit>().getFoodList(_query!);
+                        }
+                      },
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: _launchPrivacyPolicyUrl,
+                    icon: const Icon(Icons.privacy_tip_outlined),
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+                ],
               ),
             ),
           ),
@@ -99,7 +111,7 @@ class _FoodSearchBarState extends State<FoodSearchBar> {
     );
   }
 
-  Future<bool> checkNoInternet() async {
+  Future<bool> _checkNoInternet() async {
     final isNotConnected =
         (await Connectivity().checkConnectivity()) == ConnectivityResult.none;
     if (isNotConnected) {
@@ -114,5 +126,12 @@ class _FoodSearchBarState extends State<FoodSearchBar> {
       );
     }
     return isNotConnected;
+  }
+
+  void _launchPrivacyPolicyUrl() {
+    final Uri url = Uri.parse(
+      'https://github.com/amrsalah3/NutriFacts/tree/master/PRIVACY_POLICY.md',
+    );
+    launchUrl(url);
   }
 }
