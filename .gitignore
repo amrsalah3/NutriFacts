@@ -44,3 +44,6 @@ app.*.map.json
 
 # Constants for the APIs in the app
 /lib/core/common/utils/api_constants.dart
+
+# Upload keystore
+/keystore/
