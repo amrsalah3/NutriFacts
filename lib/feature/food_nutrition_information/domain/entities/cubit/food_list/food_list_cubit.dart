@@ -9,7 +9,10 @@ class FoodListCubit extends Cubit<FoodListState> {
   final FoodRepository _foodRepository;
 
   void getFoodList(String name) async {
+    if (name.isEmpty) return;
+
     emit(FoodListState(status: FoodListStatus.loading));
+
     final result = await _foodRepository.getFoods(name);
     switch (result) {
       case Success():
