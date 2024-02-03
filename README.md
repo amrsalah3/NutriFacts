@@ -1,9 +1,12 @@
 # NutriFacts
 NutriFacts is a cross-platform Flutter application designed to provide users with easy access to nutrition information for various types of food. Whether you're looking to make healthier food choices or simply curious about the nutritional content of your favorite dishes, NutriFacts has you covered.
 
+## Download
+The app is currently available on [Google Play Store](https://play.google.com/store/apps/details?id=com.narify.nutrifacts).
+
 ## Features
 The app currently offers this feature (more features to be added):
-- **Search for food nutrition information**: Utilize the powerful search functionality to detailed and accurate nutrition facts on a wide range of food types, helping you make informed dietary choices. 
+- **Search for food nutrition information**: Utilize the powerful search functionality to detailed and accurate nutrition facts on a wide range of food types, helping you make informed dietary choices.
 
 ## Technical Background
 The app is built with Flutter considering:
