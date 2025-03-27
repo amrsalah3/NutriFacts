@@ -8,6 +8,7 @@ import 'package:nutrifacts/feature/food_nutrition_information/presentation/food_
 import 'package:nutrifacts/feature/food_nutrition_information/presentation/food_list/widgets/food_list_loading.dart';
 import 'package:nutrifacts/feature/food_nutrition_information/presentation/food_list/widgets/food_list_populated.dart';
 import 'package:nutrifacts/feature/food_nutrition_information/presentation/food_list/widgets/food_search_bar.dart';
+import 'package:nutrifacts/feature/food_nutrition_information/presentation/food_list/widgets/theme_picker.dart';
 
 class FoodListPage extends StatelessWidget {
   const FoodListPage({super.key});
@@ -39,7 +40,7 @@ class _FoodViewState extends State<FoodView> {
             BlocBuilder<FoodListCubit, FoodListState>(
               builder: (context, state) {
                 return switch (state.status) {
-                  FoodListStatus.initial => const SizedBox.shrink(),
+                  FoodListStatus.initial => const ThemePicker(),
                   FoodListStatus.loading => const FoodListLoading(),
                   FoodListStatus.success => state.foods.isEmpty
                       ? const FoodListEmpty()
