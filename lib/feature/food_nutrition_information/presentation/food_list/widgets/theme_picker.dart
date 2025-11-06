@@ -19,6 +19,8 @@ class ThemePicker extends StatelessWidget {
           ColorCircle(Colors.blue),
           Gap(8),
           ColorCircle(Colors.purple),
+          Gap(8),
+          ColorCircle(Colors.red),
         ],
       ),
     );
